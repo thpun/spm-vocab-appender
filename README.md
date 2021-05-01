@@ -85,3 +85,9 @@ Example:
 ```bash
 $ python mbart-add-tokens.py --offset 249997 -n $(tokens-tba.txt | wc -l) -i mbart.cc25/model.pt -o new-model.pt
 ```
+
+## Reference
+* [Google's SentencePiece](https://github.com/google/sentencepiece)
+* [MBART: Multilingual Denoising Pre-training for Neural Machine Translation](https://github.com/pytorch/fairseq/tree/master/examples/mbart)
+* [Issue #121 in google/sentencepiece](https://github.com/google/sentencepiece/issues/121#issuecomment-400362011)
+* [Issue #2120 in pytorch/fairseq](https://github.com/pytorch/fairseq/issues/2120#issuecomment-647429120)
